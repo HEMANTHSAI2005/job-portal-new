@@ -9,7 +9,8 @@ import { useContext } from 'react';
 const Navbar = () => {
     
     const {openSignIn} = useClerk()
-
+    console.log("openSignIn function:", openSignIn);
+    
     const {user} = useUser()
 
     const navigate = useNavigate()

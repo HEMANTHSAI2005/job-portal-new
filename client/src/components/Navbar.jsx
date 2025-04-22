@@ -33,7 +33,8 @@ const Navbar = () => {
         :
         <div className='flex gap-4 max-sm:text-xs'>
             <button onClick={e => setShowRecruiterLogin(true)} className="bg-blue-500 text-white px-4 py-2 rounded-md mr-2">Recruiter Login</button>
-            <button onClick={e => openSignIn()} className="bg-gray-600 text-white px-4 py-2 rounded-md">Login</button>
+{/*         <button onClick={e => openSignIn()} className="bg-gray-600 text-white px-4 py-2 rounded-md">Login</button> */}
+            <button onClick={e => {console.log('Login button clicked'); openSignIn();}} className="bg-gray-600 text-white px-4 py-2 rounded-md">Login</button>
         </div>
       }
         

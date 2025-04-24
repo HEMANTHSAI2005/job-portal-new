@@ -49,3 +49,73 @@ A modern, full-featured Job Portal built using the MERN Stack — **MongoDB, Exp
 
 ## 📁 Project Structure
 
+job-portal/ │ ├── client/ # React frontend │ └── ... │ ├── server/ # Express backend │ └── ... │ ├── .env # Environment variables ├── README.md # Project readme └── package.json # Project metadata
+
+yaml
+Copy
+Edit
+
+---
+
+## 📦 Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/job-portal.git
+cd job-portal
+2. Install Client & Server Dependencies
+bash
+Copy
+Edit
+cd client
+npm install
+cd ../server
+npm install
+3. Add Environment Variables
+Create .env files in both client/ and server/ directories with necessary config such as:
+
+MongoDB URI
+
+Clerk credentials
+
+Sentry DSN
+
+4. Run the Application
+bash
+Copy
+Edit
+# In client/
+npm run dev
+
+# In server/
+npm run dev
+📸 Screenshots
+Add some UI screenshots or a demo video here to show the features.
+
+🔒 Authentication Powered By
+
+📉 Performance Monitoring by
+
+🙌 Contribution
+Contributions are welcome! Please fork the repo and create a pull request. For major changes, open an issue first to discuss what you’d like to change.
+
+📄 License
+This project is licensed under the MIT License.
+
+🌟 Don’t forget to leave a ⭐ if you like the project!
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you’d like a version with badges, GIF demo sections, or if you want help writing the `.env.example` too!
+
+
+
+
+
+
+
+
+

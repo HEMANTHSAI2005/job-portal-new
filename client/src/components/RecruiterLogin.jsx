@@ -46,7 +46,7 @@ const RecruiterLogin = () => {
                 }
             }
             else{
-                //const formData = new FormData()
+                const formData = new FormData()
                 formData.append('name',name)
                 formData.append('password',password)
                 formData.append('email',email)
